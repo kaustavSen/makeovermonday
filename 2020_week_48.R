@@ -147,8 +147,8 @@ ggplot() +
   annotate("text", x = -10, y = 5.65, label = "Years Lost", fontface = "bold", color = "#dac190", size = 3.25, family = "Oswald") +
   annotate("text", x = 10, y = 5.65, label = "Years Gained", fontface = "bold", color = "#6dbac6", size = 3.25, family = "Oswald") +
   annotate("richtext", x = -17, y = 6.5, label = "Women are <span style = 'color:#dac190'>losing</span> more than 2 healthy years of their lives as a result of fistula", hjust = 0, fontface = "bold", color = "black", size = 4.5, family = "Oswald", fill = NA, label.colour = NA) +
-  annotate("richtext", x = -17, y = 6.15, label = "However, access to proper surgical treatment can help then <span style = 'color:#6dbac6'>**gain**</span> 12 years of a healthy and fistual-free life", hjust = 0, color = "grey45", size = 4, family = "Oswald", fill = NA, label.colour = NA) +
-  annotate("richtext", x = -17, y = 4.5, label = "**Fistule** is a childbirth injury<br>caused by prolonged,<br>obstructed labour without<br>prompt medical attention", hjust = 0, color = "grey30", size = 3, family = "Roboto", fill = "grey90", label.colour = NA, lineheight = 0.9) +
+  annotate("richtext", x = -17, y = 6.15, label = "However, access to proper surgical treatment can help then <span style = 'color:#6dbac6'>**gain**</span> 12 years of a healthy and fistula-free life", hjust = 0, color = "grey45", size = 4, family = "Oswald", fill = NA, label.colour = NA) +
+  annotate("richtext", x = -17, y = 4.5, label = "**Fistula** is a childbirth injury<br>caused by prolonged,<br>obstructed labour without<br>prompt medical attention", hjust = 0, color = "grey30", size = 3, family = "Roboto", fill = "grey90", label.colour = NA, lineheight = 0.9) +
   labs(
     caption = "**Data:** Operation Fistula | **Plot:** Kaustav Sen"
   ) +
